@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+    /* Amazon prime continuous-2-background */
+
+    /* nav bar */
+
+nav{
+    padding-left: 270px;
+
+    background-color: black;
+    height: 50px;
+    font-size: 12px;
+    
+    
+}
+.nav_h1,.nav_h2,.fa-solid{
+    
+    color:rgb(242, 240, 238);
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 20px;
+    
+}
+
+.nav_h1{
+    margin-right: 40px;
+}
+
+    /* div-1 */
+
+.con_1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: white;
+    font-size:20px;
+    padding-top: 100px;
+   
+}
+.para{
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 850px;
+}
+
+.div_1{
+    
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+   
+}
+#div_1_button{
+    margin-left:70px ;
+    padding: 20px 70px;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius:6px;
+    background-color: rgb(17, 110, 152);
+    color: white;
+   
+}
+
+    /* div-2 */
+
+.div_2{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+
+    font-size: 20px;
+    padding-left:70px;
+
+
+}
+.para_2{
+    margin-bottom: 40px;
+   
+}
+#div_2_button{
+    padding: 20px 120px;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(17, 110, 152);
+    color: white;
+    border-radius:6px;
+}
+
+    /* div-3 */
+
+#div_3{
+    font-size: 20px;
+    margin-left:60px;
+    /* margin-right:; */
+    margin-top: 50px;
+     
+}
+
+
+.para_3_2{
+    padding:10px;
+
+}
+
+#div_3_1{
+    width: 500px;
+    float:left;
+    
+}
+
+#div_3_2{
+    
+    display: inline-block; 
+    margin-left:70px 
+}
+img{
+    width: 240px;
+    margin-right: 10px;
+    
+}
+img[alt="div_3_img"]:hover{
+    box-shadow: 2px 0px 20px black;
+}
+
+                /* footer */
+
+footer{
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.877);
+
+}
+img[alt="footer_img"]{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 700px;
+    margin-right: 100px;
+    
+}
+
+
+.footer_para{
+
+    font-size: 20px;
+    color: rgb(65, 155, 229);
+    padding-left: 30px;
+    display: inline;
+}
+
+.footer_para1{
+   margin-left: 490px; 
+}
+
+.footer_para:hover{
+    color: rgb(134, 194, 242); 
+}
+
+#footer_add{
+    font-size: 20px;
+    color:  rgb(76, 95, 113);
+    font-weight: bold;
+    margin-left:550px;
+    margin-top: 15px;
+}
+

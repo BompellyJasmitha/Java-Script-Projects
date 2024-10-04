@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../Assest/images/galaxy.jpg);
+    background:  center cover no-repeat ;
+
+}
+
+img[alt="sun"]{
+    width:200px;
+    position:fixed;
+    top: 250px;
+    left:600px;
+    animation: sun 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes sun {
+    to{transform: rotate(360deg);}
+    
+}
+
+
+img[alt="mercury"]{
+    width:60px;
+    position: absolute;
+    top: 320px;
+    left:670px;
+    animation: mercury 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes mercury {
+0%{transform: rotate(0deg) translate(170px);}
+100%{transform: rotate(360deg) translate(170px);}
+
+}

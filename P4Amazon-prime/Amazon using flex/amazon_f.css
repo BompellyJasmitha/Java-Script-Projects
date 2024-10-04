@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav img{
+    width: 150px;
+    height: 40px;
+    
+}
+ul{
+
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    align-items: left;
+    color: gray;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li{
+    list-style-type:none;
+
+}
+
+#arrow i:hover{
+
+    transition-duration: 0s;
+    transform: rotate(180deg);
+    background-color: azure;
+
+}
+
+
+    /* div-1 */
+
+    .con_1{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        color: white;
+        font-size:20px;
+        padding-top: 100px;
+       
+    }
+    .para{
+        padding-bottom: 40px;
+        padding-left: 70px;
+        padding-right: 850px;
+    }
+    
+    .div_1{
+        
+        background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+       
+    }
+    #div_1_button{
+        margin-left:70px ;
+        padding: 20px 70px;
+        font-weight: bold;
+        font-size: 19px;
+        border-radius:6px;
+        background-color: rgb(17, 110, 152);
+        color: white;
+       
+    }
+
+  /* div-2 */
+
+  .div_2{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+
+    font-size: 20px;
+    padding-left:70px;
+
+
+}
+.para_2{
+    margin-bottom: 40px;
+   
+}
+#div_2_button{
+    padding: 20px 120px;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(17, 110, 152);
+    color: white;
+    border-radius:6px;
+}
+
+/* div-3 */
+
+#div_3{
+    height: 80vh;
+    font-size: 20px;
+    margin:50px 60px; 
+    display: flex;  
+}
+
+
+#div_3_1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.para_3_2{
+    width: 500px;
+    padding: 10px;
+}
+
+img{
+    width: 230px;
+    height: 130px;
+}
+
+#div_3_2{
+
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
+img[alt="div_3_img"]:hover{
+    box-shadow: 2px 0px 20px black,0px 2px 20px black;
+
+}
+
+
+/* footer */
+
+img[alt="footer_img"]{
+    
+    width: 170px;
+    height: 50px;
+    margin: 10px 600px;
+
+}
+
+
+footer{
+   
+    height: 20vh;
+    background-color: black;
+    text-align: center;
+ 
+}
+
+.footer_para{
+
+    font-size: 18px;
+    color: rgb(65, 155, 229);
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.footer_para:hover{
+    color: rgb(134, 194, 242); 
+}
+
+#footer_add{
+    font-size: 20px;
+    color:  rgb(76, 95, 113);
+
+}
+

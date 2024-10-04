@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#twitter{
+    background-color: black;
+    padding: 200px;
+    width:2100px;
+    margin-left: 2300px;
+    margin-top: 300px;
+    border-radius: 205px;
+}
+img[alt="twitter_img"]{
+ margin-left:780px;
+ margin-bottom:200px;
+}
+#twittter_h1{
+    font-size: 100px;
+    color: white;
+    margin-left:380px;
+    margin-bottom: 150px;
+}
+#twitter_google{
+    margin-left:380px;
+    border-radius: 70px;
+    margin-bottom: 90px;
+    width: 1000px;
+    height:140px;
+    font-size:60px;
+}
+#twitter_apple{
+    margin-left:380px;
+    border-radius: 70px;
+    width: 1000px;
+    height:140px;
+    font-size:60px;
+    margin-bottom: 10px;
+}
+#twitter_p{
+    color: white;
+    margin-left:380px;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+#twitter_input{
+    margin-left:380px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 970px;
+    height:140px;
+    font-size:60px;
+    margin-bottom: 90px;
+    background-color: transparent;
+    border: 0.1px solid gray;
+}
+#twitter_next{
+    margin-left:380px;
+    border-radius: 70px;
+    width: 1000px;
+    height:140px;
+    font-size:60px;
+    margin-bottom: 90px;
+}
+#twitter_forgotpassword{
+    margin-left:380px;
+    border-radius: 70px;
+    padding: 10px;
+    width: 1000px;
+    height:140px;
+    font-size:60px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: transparent;
+    border: 0.1px solid gray;
+}
+#twitter_h6{
+    color:gray;
+    margin-left:380px;
+    font-size:60px;
+    width: fit-content;
+}
+#twitter_sign_up{
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+}
+
